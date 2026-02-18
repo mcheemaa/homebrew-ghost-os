@@ -1,10 +1,10 @@
 class GhostOs < Formula
   desc "Let AI agents see and control any app on your computer"
   homepage "https://github.com/mcheemaa/ghost-os"
-  url "https://github.com/mcheemaa/ghost-os/releases/download/v0.1.0/ghost-os-0.1.0-macos-arm64.tar.gz"
-  sha256 "aa82f031b07bcaf1ab699df63640721c3e1666b9e469cad6a53581af70a50374"
+  url "https://github.com/mcheemaa/ghost-os/releases/download/v0.1.1/ghost-os-0.1.1-macos-arm64.tar.gz"
+  sha256 "6fd3dba7912cb45535f90802857e356fa3b6666845e5a467bb613ffdeff21313"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   depends_on :macos
   depends_on macos: :sonoma
